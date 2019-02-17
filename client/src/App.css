@@ -1,0 +1,261 @@
+/******************************GENERAL STYLING******************************/
+
+.App {
+  text-align: center;
+}
+.container {
+  padding: 0;
+}
+
+.App .navbar {
+  height: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: orangered;
+  font-size: 0.5em;
+}
+
+.App .main-container {
+  margin-top: 80px;
+}
+
+.link {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-container {
+  border-color: black;
+  border-style: 10px;
+}
+
+.point {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+/******************************AUTH STYLING*********************************/
+
+.signInForm {
+  margin-top: 10px;
+}
+
+.sign-in-field {
+  margin-top: 2px;
+}
+.btn {
+  margin-top: 2px;
+}
+.signOut-btn {
+  font-size: 2em;
+}
+.signUpForm {
+  margin-top: 10px;
+}
+
+.sign-up-field {
+  margin-top: 2px;
+}
+.auth-btn {
+  background-color: midnightblue;
+  color: white;
+}
+
+/******************************ITEM STYLING********************************/
+
+h3 {
+  font-family: trebuchet;
+  font-weight: bold;
+  color: midnightblue;
+}
+
+.item {
+  display: inline-block;
+  font-size: 0.9em;
+}
+
+.item p {
+  margin-right: 15px;
+}
+
+.item btn-danger {
+  margin-left: 30px;
+}
+
+.update-btn {
+  margin-left: 2px;
+  margin-right: 40px;
+}
+
+.delete-btn {
+  margin-left: 20px;
+  font-size: 0.9em;
+}
+
+.purchase-btn {
+  font-size: 0.9em;
+}
+
+.unpurchase-btn {
+  font-size: 0.9em;
+}
+
+.newItemForm {
+  font-size: 0.9em;
+}
+
+.new-item-input {
+  font-size: 0.9em;
+}
+
+.newItem {
+  margin-top: 20px;
+}
+
+.updateItem-container {
+  padding-left: 20px;
+}
+
+/******************************LANDING STYLING*******************************/
+
+p {
+  color: midnightblue;
+  font-family: trebuchet;
+  font-size: 1rem;
+}
+
+.App-title {
+  display: inline-block;
+}
+
+.App-header {
+  background-color: orangered;
+  min-height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: trebuchet;
+  font-size: 10px;
+  color: midnightblue;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.App-name {
+  margin-bottom: 50px;
+}
+
+.App-subtitle {
+  margin-bottom: 0;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.col md-3 content {
+  background-color: orangered;
+}
+
+/******************************LIST STYLING********************************/
+
+.header {
+  margin-bottom: 20px;
+  font-family: trebuchet;
+  font-weight: bold;
+  color: midnightblue;
+}
+
+.list-form {
+  display: inline-block;
+  font-size: 1em;
+}
+
+.list-container {
+  margin-bottom: 30px;
+}
+
+.delete-button {
+  margin-left: 50px;
+}
+
+.edit-button {
+  margin-left: 50px;
+}
+.lists {
+  font-size: 1em;
+}
+
+.list-link {
+  text-decoration: none;
+  color: midnightblue;
+  font-size: 1.5em;
+  font-family: trebuchet;
+}
+
+.list-link:hover {
+  font-weight: bold;
+  color: midnightblue;
+  text-decoration: none;
+}
+
+.list-title {
+  margin-bottom: 5px;
+}
+
+.new-title-form {
+  font-size: 0.9em;
+}
+
+.btn {
+  font-size: 0.9em;
+  margin-left: 5px;
+}
+
+.lists-header {
+  font-style: normal;
+  color: midnightblue;
+}
+
+.container-lists {
+  padding-top: 20px;
+}
+
+.list-title {
+  color: midnightblue;
+}
+
+/******************************NAV STYLING******************************/
+
+.nav-item:hover {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: midnightblue;
+}
+
+.nav-item-signedOut {
+  display: inline-block;
+  width: 100px;
+}
+
+.logo-title {
+  font-size: 3em;
+  font-family: trebuchet;
+}
+
+.list-link {
+  font-size: 2em;
+}
+
+.nav-item-signedIn {
+  display: inline-block;
+}
