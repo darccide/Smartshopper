@@ -1,6 +1,7 @@
 {
   "name": "smartshopper",
   "version": "1.0.0",
+  "homepage": "/build",
   "scripts": {
     "test": "export NODE_ENV=test && jasmine",
     "client": "cd client && npm run start",
