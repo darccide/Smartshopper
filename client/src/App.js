@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route } from "react-router-dom";
+import { Route, BrowserRouter } from "react-router-dom";
 
 import Landing from "./components/layout/Landing.js";
 import Nav from "./components/layout/Nav.js";
@@ -47,16 +47,18 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Nav />
-        <main className="main-container">
-          <Route exact path="/" component={Landing} />
-          <Route path="/SignUp" component={SignUp} />
-          <Route path="/SignIn" component={SignIn} />
-          <Route exact path="/Lists" component={Lists} />
-          <Route path="/Lists/:id" component={List} />
-        </main>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Nav />
+          <main className="main-container">
+            <Route exact path="/" component={Landing} />
+            <Route path="/SignUp" component={SignUp} />
+            <Route path="/SignIn" component={SignIn} />
+            <Route exact path="/Lists" component={Lists} />
+            <Route path="/Lists/:id" component={List} />
+          </main>
+        </div>
+      </BrowserRouter>
     );
   }
 }
