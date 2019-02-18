@@ -1,6 +1,6 @@
 # SMARTSHOPPER
 
-![Homepage Screenshot](https://i.imgur.com/Kg0N3Ld.png)
+![Homepage Screenshot](https://i.imgur.com/XXH9LpE.png)
 
 [Go to homepage](https://smartshopper-final.herokuapp.com/static)
 
