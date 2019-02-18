@@ -39,7 +39,7 @@ Create a user by signing up in top right screen. Then click on the `SMARTSHOPPER
 
 You will then see a list of shopping lists you can choose from as well as create your own.
 
-Click on one and you will see the option to change the title of the list as well as delete it. You will also see a list of items for each list with functionality to add an item, update an item, mark an item as purchased or unpurchased ("\$") and delete an item ("X".
+Click on one and you will see the option to change the title of the list as well as delete it. You will also see a list of items for each list with functionality to add an item, update an item, mark an item as purchased or unpurchased ("\$") and delete an item ("X").
 
 ## Running the tests
 
