@@ -1,7 +1,7 @@
 {
   "name": "smartshopper",
   "version": "1.0.0",
-  "homepage": "http://mywebsite.com/static",
+  "homepage": "https://smartshopper-final.herokuapp.com/static/",
   "scripts": {
     "test": "export NODE_ENV=test && jasmine",
     "client": "cd client && npm run start",
