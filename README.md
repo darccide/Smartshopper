@@ -2,7 +2,7 @@
 
 ![Homepage Screenshot](https://i.imgur.com/XXH9LpE.png)
 
-[Go to homepage](https://smartshopper-final.herokuapp.com/static)
+
 
 A real-time shopping list app that can be shared with other users. Users have the ability to create shopping lists with a list of items that can be updated, deleted and mark as purchased. Built with NERDS Stack (Node.js, Express.js, React.js, Databases using SQL), Test-driven Development (TDD) practices and RESTful API.
 
